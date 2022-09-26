@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <form>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td style="text-align:right"><label for="username">Username:</label></td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td style="text-align:right"><label for="password">Password:</label></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                    <label for="pria">Pria</label><input type="radio" name="jeniskelamin" id="pria">
+                    <label for="wanita">Wanita</label><input type="radio" name="jeniskelamin" id="wanita">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                    <label for="luring">Luring</label><input type="checkbox" id="luring">
+                    <label for="daring">Daring</label><input type="checkbox" id="daring">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right"><label for="daerah">Asal Daerah:</label></td>
+                <td><select id="daerah">
+                    <option>Bulukumba</option>
+                    <option>Makassar</option>
+                    <option>Gowa</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td style="text-align:right"><label for="textarea">Textarea:</label></td>
+                <td><textarea id="textarea"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Kirim</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
